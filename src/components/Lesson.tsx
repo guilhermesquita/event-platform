@@ -1,3 +1,5 @@
+import {CheckCircle} from 'phosphor-react'
+
 export function Lesson(){
     return( 
     
@@ -8,12 +10,21 @@ export function Lesson(){
         </span>
 
         <div className="rounded border border-gray-500 p-4 mt-2">
-            <header>
-                <span>Conteúdo liberado</span>
-                <span>AO VIVO</span>
+            <header className="flex items-center justify-between">
+                
+                <span className="text-sm text-blue-500 font-medium">
+                    Conteúdo liberado
+                </span>
+                
+                <span className="text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold">
+                    AO VIVO
+                </span>
+
             </header>
 
-            <strong>Abertura do Evento de React!</strong>
+            <strong className="text-gray-200 mt-5 block">
+                Abertura do Evento de React!
+            </strong>
         </div>
     </a>
     
