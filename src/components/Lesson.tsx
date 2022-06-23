@@ -1,3 +1,22 @@
 export function Lesson(){
-    return <h1></h1>
+    return( 
+    
+    
+    <a href="#">
+        <span className="text-gray-300">
+            Segunda • 21 de junho • 19h00    
+        </span>
+
+        <div className="rounded border border-gray-500 p-4 mt-2">
+            <header>
+                <span>Conteúdo liberado</span>
+                <span>AO VIVO</span>
+            </header>
+
+            <strong>Abertura do Evento de React!</strong>
+        </div>
+    </a>
+    
+    
+    )
 }
