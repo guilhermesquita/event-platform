@@ -1,3 +1,3 @@
 export function Sidebar(){
-    return <h1></h1>
+    return <h1>Sidebar</h1>
 }
